@@ -4,11 +4,11 @@ import * as THREE from 'three'
 
 // ── cluster card constants ───────────────────────────────────
 const CARDS_PER_CLUSTER = 3
-const BASE_SIZE = 0.065
-const MAX_OPACITY = 0.42
-const NORMAL_BASE_OFFSET = 0.0035
+const BASE_SIZE = 0.085
+const MAX_OPACITY = 0.55
+const NORMAL_BASE_OFFSET = 0.006
 const ALPHA_TEST = 0.08
-const CARD_POINT_DISPLAY_RATE = 0.25
+const CARD_POINT_DISPLAY_RATE = 0.30
 
 // Tier distribution: inner (close + tall), mid, outer (far + flat)
 // 3 cards: index 0=inner, 1=mid, 2=outer

@@ -151,8 +151,8 @@ void main() {
   mossCol = mix(mossCol, rootShadow, rootZone * 0.72);
 
   // — alpha (Layer A: soft base, more continuous to bridge cards) —
-  float alphaEdge    = edgeMask * 0.04;
-  float alphaCore    = coreMask * 0.50;
+  float alphaEdge    = edgeMask * 0.035;
+  float alphaCore    = coreMask * 0.52;
   float alphaTexMod  = mix(0.76, 1.16, texDetail);
   float textureDensity = mix(0.68, 1.30, texDetail);
   textureDensity *= mix(0.80, 1.16, texContrast);
