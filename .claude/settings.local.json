@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npx vite *)",
+      "Bash(node node_modules/vite/bin/vite.js --host 0.0.0.0)",
+      "Bash(npm --version)",
+      "Bash(where node *)"
+    ]
+  }
+}
